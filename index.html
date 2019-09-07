@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!--Samim font-->
+    <link href="https://cdn.rawgit.com/rastikerdar/samim-font/v3.1.0/dist/font-face.css" rel="stylesheet"
+          type="text/css"/>
+
+    <link rel="shortcut icon" href="logo.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="main.css" rel="stylesheet">
+    <!-- Font Awesome   -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+          integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <title>Flipboard</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="">
+        <svg width="60" height="60" viewBox="0 0 100 100" data-reactid=".0.0.0.0.$=10:0">
+            <g id="Page-1" stroke="none" fill="none" data-reactid=".0.0.0.0.$=10:0.0">
+                <g id="Flipboard_01_Lockup" fill="#F52828" data-reactid=".0.0.0.0.$=10:0.0.0">
+                    <path d="M0,0 L0,100 L100,100 L100,0 L0,0 Z M80,40 L60,40 L60,60 L40,60 L40,80 L20,80 L20,20 L80,20 L80,40 Z"
+                          id="Shape" data-reactid=".0.0.0.0.$=10:0.0.0.0"></path>
+                </g>
+            </g>
+        </svg>
+    </a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navb">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navb">
+        <ul class="navbar-nav mr-auto ttls">
+            <li class="nav-item">
+                <a class="nav-link" href="view.html">برای شما</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="">تکنولوژی</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="">علاقه ی شما چیست ؟</a>
+            </li>
+        </ul>
+
+    </div>
+</nav>
+
+<div class="container ">
+
+
+<!--    <div class="row">-->
+<!--        <div class="col-lg-4 col-md-12 col-sm-12 ttl">امروز در تکنولوژي</div>-->
+<!--        <div class="col-lg-4 col-md-12 col-sm-12 between ">وقتی هوای گرم به بالای آسمان صعود می‌کند، بخار آب را هم همراه-->
+<!--            خودش به بالا به داخل آسمان می‌برد. در بالای آسمان، بخار آب سرد می‌شود و قطره‌های آب دور ذرات ریز گرد و غبار-->
+<!--            موجود در هوا تشکیل می‌شود.-->
+<!--        </div>-->
+<!--        <div class="col-lg-4 col-md-12 col-sm-12 between">مقداری از بخار آب هم به شکل کریستال‌های ریز یخ منجمد می‌شود که-->
+<!--            قطرات آب سرد شده را جذب می‌کند.-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    &lt;!&ndash;line&ndash;&gt;-->
+<!--    <div class="rectangle"></div>-->
+<!--    &lt;!&ndash;line&ndash;&gt;-->
+    <div class="row">
+        <div class="col-12 mx-auto">
+            <div class="text-center mb-3">
+                <h3>
+                    کاور استوریز
+                </h3>
+                <div>
+                    هایلایت فرام اوری تینگ یو فالو
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="bd-example slider">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/1.jpg" class="d-block w-100" alt="img/1.jpg">
+                    <div class="carousel-caption d-block">
+                        <h5 class="bg-light text-dark p-2" >اولین سر برگ</h5>
+                        <p class="d-none d-md-block d-lg-block bg-dark p-1">سام تکست سام تکست سام تکست سام تکست سام تکست سام تکست سام تکست </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/2.jpeg" class="d-block w-100" alt="img/1.jpg">
+                    <div class="carousel-caption d-block">
+                        <h5>Second slide label</h5>
+                        <p class="d-none d-md-block d-lg-block">وقتی هوای گرم به بالای آسمان صعود می‌کند، بخار آب را هم همراه خودش به بالا به داخل آسمان
+                            می‌برد. در بالای آسمان، بخار آب سرد می‌شود و قطره‌های آب دور ذرات ریز گرد و غبار موجود در
+                            هوا تشکیل می‌شود. مقداری از بخار آب هم به شکل کریستال‌های ریز یخ منجمد می‌شود که قطرات آب
+                            سرد شده را جذب می‌کند. قطرات به شکل کریستال‌های یخ، منجمد می‌شود و کریستال‌های بزرگ تری را
+                            تشکیل می‌دهد که ما آنها را برف ریزه می‌نامیم. موقعی که برف ریزه‌ها سنگین می‌شوند، پایین
+                            می‌افتند. برف ریزه‌ها در مسیرشان رو به پایین با هوای گرم‌تر برخورد می‌کنند و ذوب می‌شوند و
+                            به صورت قطرات باران در می‌آیند.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/1.jpg" class="d-block w-100" alt="img/1.jpg">
+                    <div class="carousel-caption d-block">
+                        <h5>Third slide label</h5>
+                        <p class="d-none d-md-block d-lg-block">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+
+    <!--    cards start-->
+    <div class="row card-columns">
+
+
+        <div class="col-sm-12 col-md-12 col-lg-6 ">
+            <div class="card">
+                <span class="float-right"><img class="avatar" src="https://www.isna.ir/resources/theme/isna/img/favicon.ico">ایسنا</span>
+                <img class="card-img-top" src="https://cdn.isna.ir/d/2019/09/06/3/57938847.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title text-right ">اولین پیروزی ایران در جام جهانی بسکتبال با برتری مقابل آنگولا
+
+                    </h5>
+                    <p class="text-muted text-right">ورزشی</p>
+
+                    <p class="card-text text-right ">به گزارش ایسنا، در ادامه جام جهانی ۲۰۱۹ بسکتبال در چین، تیم ملی ایران که هر سه بازی مرحله گروهی را واگذار کرده بود، در دور بعد برای تعیین تیمهای رده های ۱۷ تا ۳۲ جام جهانی به مصاف آنگولا رفت که با برتری ۷۱ بر ۶۲ به اولین پیروزی اش در جام جهانی رسید.</p>
+                    <p class="card-text">
+                        <small class="text-muted">امروز ۱۹:۲۱</small>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-3 ">
+            <div class="card">
+                <span class="float-right"><img class="avatar" src="https://www.isna.ir/resources/theme/isna/img/favicon.ico">ایسنا</span>
+                <img class="card-img-top" src="https://cdn.isna.ir/d/2019/09/06/3/57938847.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title text-right ">اولین پیروزی ایران در جام جهانی بسکتبال با برتری مقابل آنگولا
+
+                    </h5>
+                    <p class="text-muted text-right">ورزشی</p>
+
+                    <p class="card-text text-right ">به گزارش ایسنا، در ادامه جام جهانی ۲۰۱۹ بسکتبال در چین، تیم ملی ایران که هر سه بازی مرحله گروهی را واگذار کرده بود، در دور بعد برای تعیین تیمهای رده های ۱۷ تا ۳۲ جام جهانی به مصاف آنگولا رفت که با برتری ۷۱ بر ۶۲ به اولین پیروزی اش در جام جهانی رسید.</p>
+                    <p class="card-text">
+                        <small class="text-muted">امروز ۱۹:۲۱</small>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="card">
+                <span class="float-right"><img class="avatar" src="https://www.isna.ir/resources/theme/isna/img/favicon.ico">ایسنا</span>
+                <img class="card-img-top" src="https://cdn.isna.ir/d/2019/09/02/0/57936986.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title text-right ">اینفوگرافی / متکدیان و کارتن‌خواب‌های کدام مناطق تهران بیشتر
+                        است؟
+                    </h5>
+                    <p class="text-muted ">معاونت شهرداری تهران</p>
+
+                    <p class="card-text text-right ">طبق گزارش «پیمایش رصد کیفیت زندگی شهری در تهران» که معاونت
+                        اجتماعی شهرداری تهران منتشر کرده، رتبه هر منطقه بر اساس تعداد متکدیان و کارتن‌خواب‌های این مناطق
+                        مشخص شده است. در این اینفوگرافی به رتبه مناطق بیست‌ودوگانه پایتخت پرداخته شده است.</p>
+                    <p class="card-text">
+                        <small class="text-muted ">امروز ۱۴:۵۷</small>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="card">
+                <span><img class="avatar" src="logo.png">Bloomberg</span>
+                <img class="card-img-top"
+                     src="https://storage.googleapis.com/afs-prod/media/881a093fe6b0451994d4517098dc4c27/2000.jpeg"
+                     alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">US and Poland sign agreement to cooperate on 5G technology</h5>
+                    <p class="text-muted">Associated Press · By JILL COLVIN</p>
+                    <p class="card-text">WARSAW, Poland (AP) — The U.S. and Poland signed an agreement Monday to
+                        cooperate on new 5G technology as concerns grow about Chinese telecommunications giant Huawei.
+                        Vice President Mike Pence and Polish Prime Minister Mateusz Morawiecki signed the deal in
+                        Warsaw, where Pence is filling in for …</p>
+                    <p class="card-text">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-12  col-md-6 col-lg-3">
+            <div class="card">
+                <span><img class="avatar" src="logo.png">Bloomberg</span>
+
+                <img class="card-img-top" src="img/1.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Card title that wraps to a new line</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="card">
+                <span><img class="avatar" src="logo.png">Bloomberg</span>
+
+                <img class="card-img-top" src="img/1.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                        content.</p>
+                    <p class="card-text">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="card">
+                <span><img class="avatar" src="logo.png">Bloomberg</span>
+
+                <img class="card-img-top" src="img/1.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                        content.</p>
+                    <p class="card-text">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="card">
+                <span><img class="avatar" src="logo.png">Bloomberg</span>
+
+                <img class="card-img-top" src="img/1.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                        content.</p>
+                    <p class="card-text">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="card text-white no-border text-right mb-3">
+        <img src="https://img.bleacherreport.net/img/images/photos/003/826/237/hi-res-68f556032818d9e9f5aa21ca07da7980_crop_north.jpg?h=533&w=800&q=100&crop_x=center&crop_y=top"
+             class="card-img" alt="img/1.jpg">
+        <div class="card-img-overlay">
+            <h6 class="card-text col-md-3 offset-md-8"><a href="#">The Daily Edition</a></h6>
+            <h5 class="card-title col-md-4 col-sm-4 offset-md-8">ماوس لاجیتک MX Master 3 با قابلیت‌های حرفه‌ای معرفی شد</h5>
+            <p class="text-muted col-md-3 offset-md-8">ورزشی</p>
+            <p class="card-text col-md-5 offset-md-8 text-right d-none d-md-block d-lg-block">وقتی هوای گرم به بالای آسمان صعود می‌کند، بخار آب را هم همراه خودش به بالا به داخل آسمان می‌برد. در بالای آسمان، بخار آب سرد می‌شود و قطره‌های آب دور ذرات ریز گرد و غبار موجود در هوا تشکیل می‌شود. مقداری از بخار آب هم به شکل کریستال‌های ریز یخ منجمد می‌شود که قطرات آب سرد شده را جذب می‌کند. قطرات به شکل کریستال‌های یخ، منجمد می‌شود و کریستال‌های بزرگ تری را تشکیل می‌دهد که ما آنها را برف ریزه می‌نامیم. موقعی که برف ریزه‌ها سنگین می‌شوند، پایین می‌افتند. برف ریزه‌ها در مسیرشان رو به پایین با هوای گرم‌تر برخورد می‌کنند و ذوب می‌شوند و به صورت قطرات باران در می‌آیند.</p>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+
+    <div class="row text-right">
+
+        <div class="col-sm-12 col-md-6 col-lg-6 ">
+            <div class="card" >
+                <img src="img/1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">عنوان کارت</h5>
+                    <p class="text-muted  ">منبع خبر</p>
+
+                    <p class="card-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز</p>
+                    <small class="text-muted">امروز ۱۴:۵۷</small>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3 ">
+            <div class="card" >
+                <img src="img/1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">عنوان کارت</h5>
+                    <p class="text-muted  ">منبع خبر</p>
+
+                    <p class="card-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز</p>
+                    <small class="text-muted">امروز ۱۴:۵۷</small>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3 ">
+            <div class="card" >
+                <img src="img/1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">عنوان کارت</h5>
+                    <p class="text-muted  ">منبع خبر</p>
+
+                    <p class="card-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز</p>
+                    <small class="text-muted">امروز ۱۴:۵۷</small>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3 ">
+            <div class="card" >
+                <img src="img/1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">عنوان کارت</h5>
+                    <p class="text-muted  ">منبع خبر</p>
+
+                    <p class="card-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز</p>
+                    <small class="text-muted">امروز ۱۴:۵۷</small>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3 ">
+            <div class="card" >
+                <img src="img/1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">عنوان کارت</h5>
+                    <p class="text-muted  ">منبع خبر</p>
+
+                    <p class="card-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز</p>
+                    <small class="text-muted">امروز ۱۴:۵۷</small>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6 ">
+            <div class="card" >
+                <img src="img/1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">عنوان کارت</h5>
+                    <p class="text-muted  ">منبع خبر</p>
+
+                    <p class="card-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز</p>
+                    <small class="text-muted">امروز ۱۴:۵۷</small>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+</div>
+<footer class="blog-footer text-center">
+    <p> توسعه داده شده توسط <a href="https://avers.co/">اورس</a></p>
+    <p>
+        <a href="#">برو به بالا</a>
+    </p>
+</footer>
+
+
+
+
+
+
+<!-- Optional JavaScript -->
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+</html>

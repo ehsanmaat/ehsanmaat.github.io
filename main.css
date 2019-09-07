@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Libre+Caslon+Text&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Hepta+Slab&display=swap');
+html{
+    scroll-behavior: smooth;
+
+}
+body{
+    direction: rtl;
+    /*background-color: grey;*/
+    /*font-family: 'Libre Caslon Text', serif;*/
+    font-family: 'Samim', sans-serif;
+
+
+}
+.no-border {
+    border: 0;
+    box-shadow: none; /* You may want to include this as bootstrap applies these styles too */
+}
+.card {
+    border: 0;
+
+}
+ul li {
+    margin-left: 14px;
+}
+
+nav {
+    border-bottom: 0.2px solid #cccccc;
+    margin-bottom: 25px;
+}
+.form-control{
+    height: 100%;
+    width: 88%;
+
+}
+
+.ttls {
+    font-size: 1em;
+}
+
+.ttl {
+    font-weight: 900;
+    line-height: 90%;
+    color: black;
+    font-size: 60px;
+}
+.ttl:hover{
+    color: rgb(245, 40, 40);
+}
+.rectangle {
+    height: 5px;
+    background-color: black;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 25px;
+
+}
+.slider{
+    display: inline-block;
+    margin-bottom: 25px;
+}
+.slider img{
+    width: 1200px;
+    height: 500px;
+    object-fit: cover;
+}
+.avatar {
+    margin: 8px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    width: 30px;
+    height: 30px;
+}
+.farsi{
+    font-family: 'Samim', sans-serif;
+
+}
+.recNews {
+    border-right: 0.2px solid #cccccc ;
+}
+@media (max-width: 1200px) {
+
+
+}
+@media (max-width: 992px) {
+    nav button{
+        margin-top: 7px;
+    }
+}
+@media (max-width: 768px) {
+
+    .between{
+        padding-top: 10px;
+        color: rgba(0,0,0,.5);
+    }
+    nav button{
+        margin-top: 7px;
+    }
+
+}
+@media (max-width: 576px) {
+    nav button{
+        margin-top: 7px;
+    }
+}
+
+
+
+
+
+
+
+
