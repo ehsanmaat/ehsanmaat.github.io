@@ -8,9 +8,12 @@ html{
 body{
     direction: rtl;
     /*background-color: grey;*/
-    /*font-family: 'Libre Caslon Text', serif;*/
     font-family: 'Samim', sans-serif;
 
+
+}
+.en {
+    font-family: 'Libre Caslon Text', serif;
 
 }
 .no-border {
@@ -73,8 +76,8 @@ nav {
     width: 30px;
     height: 30px;
 }
-.farsi{
-    font-family: 'Samim', sans-serif;
+footer{
+    border-top: 0.7px solid #cccccc ;
 
 }
 .recNews {
